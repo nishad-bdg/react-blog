@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from '../../components/Headers'
 import './style.css'
 
 const Home = props => {
     return (
-        <div>Home</div>  
+        <div>
+            <Header></Header>
+        </div>  
     );
 }
 
